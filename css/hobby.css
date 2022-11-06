@@ -1,34 +1,35 @@
 
 body {
-    background-color: #50c878;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: #f5f5dc;
-  }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #f5f5dc;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #f5f5dc;
-    color: black;
-  }
+  background-color: #0b0a75;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f4c290;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #0b0a75;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#f4c290;
+  color: #0b0a75;
+  text-decoration:underline;
+}
+
+.topnav a.active {
+  background-color: #f4c290;
+  color: #0b0a75;
+}
   
   .topnav input[type=text] {
     float: right;
@@ -54,54 +55,18 @@ body {
     }
     
   }
-  .container div{
-    background: color #f5f5dc;
-    border: 1px grey solid;
-    border-radius: 5px;
-    text-align: center;
-    width: 150px;
-    margin: 10px;
-  }
-  
-  .container {
-  
-    display: flex;
-    flex-direction: row-reverse;
-    align-self:left;
-    justify-content: left;
-  }
-  .container img {
-  border-style: solid;
-  float:none;
-  color: #9900f0;
-  width: 130px;
-  border-radius: 50px;
-  }
-  .logo{
-  width: 94%;
-  height: 150%;
-  padding: 30px;
-  background-color: #00c897;
-  background-repeat: no-repeat;
-  background-size: contain;
-  
-  }
-  .logo img{
-    width: 70px;
-    height: 50px;
-  }
   
   img {
   width: 100px;
-  border: #9900f0;
-  background: url("../images/Albasir.jpg");
+  border: #f4c290;
+  background: url("../image/HiBasirah.JPG");
   float: left;
   clear: none;
   
   }
   
   h1 {
-    color: #f900bf;
+    color: #5961ab;
     text-align: center;
     font-size: 40px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -131,7 +96,7 @@ body {
     }
     
 .form{
-  background-color: #f5f5dc;
+  background-color: #f4c290;
   color: rgb(14, 30, 30);
   width: 35%;
   padding: 20px;
@@ -153,7 +118,7 @@ body {
   border-radius: 5px;
  } 
  .swiper-container{
-  background-color: #f5f5dc;
+  background-color: #f4c290;
   width: 99%;
   height: 200%;
   padding: 50px;
