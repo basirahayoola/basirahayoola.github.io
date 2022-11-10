@@ -98,7 +98,7 @@ body {
 .form{
   background-color: #f4c290;
   color: rgb(14, 30, 30);
-  width: 35%;
+  width: 70%;
   padding: 20px;
   margin: 10%;
   border-radius: 5px;
@@ -128,7 +128,7 @@ body {
  .swiper-slide img{
   width: 450px;
   height: 450px;
-  background-color: #00c897;
+  background-color: #f4c290;
   float: center;
   clear: none;
   
