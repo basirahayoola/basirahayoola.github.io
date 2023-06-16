@@ -84,6 +84,9 @@ body {
         text-align: left;
         font-size: 20px;
     }
+  ol {
+      color: #f4c290;
+  }
     .container div{
       background-color: aliceblue;
       border: 1px grey solid;
